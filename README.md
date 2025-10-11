@@ -44,9 +44,7 @@
 | 🗂️ **Asignacion** | 🗂️ **Carpeta** | 📝 **Descripción** | 🚀 **Tecnología** |
 |-------------|----------------|-------------------|-------------------|
 | 7 | 📚 `Asignacion07_00000267883.zip` | Implementación avanzada de estructuras de datos y algoritmos. | ☕ Java + Maven |
-| 6 | 📦 `Listas_00000267883 - 6.zip` | Lista doblemente enlazada con métodos y pruebas. | ☕ Java + Maven |
 | 6 | 🔗 `Asignacion06_00000267883.zip` | Estructuras de datos enlazadas con implementaciones optimizadas. | ☕ Java + Maven |
-| 5 | 📎 `Listas_00000267883.zip` | Lista genérica basada en listas enlazadas con métodos clave y pruebas unitarias. | ☕ Java + Maven |
 | 5 | 📋 `Asignacion05_00000267883.zip` | Implementación de listas genéricas y operaciones avanzadas. | ☕ Java + Maven |
 | 4 | 📋 `Listas_00000267883` | Lista genérica basada en arreglos con métodos clave y pruebas unitarias. | ☕ Java + Maven |
 | 3 | 🎒 `bolsaGen_00000267883` | Implementación de clases genéricas y excepciones con pruebas unitarias. | ☕ Java + Maven |
