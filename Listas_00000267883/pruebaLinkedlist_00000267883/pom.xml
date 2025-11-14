@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.itson</groupId>
+        <artifactId>Listas_00000267883</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>pruebaLinkedlist_00000267883</artifactId>
+    <packaging>jar</packaging>
+    <properties>
+        <exec.mainClass>com.itson.pruebalinkedlist.PruebaLinkedlist</exec.mainClass>
+    </properties>
+    <name>pruebaLinkedlist_00000267883</name>
+    <dependencies>
+        <dependency>
+            <groupId>com.itson</groupId>
+            <artifactId>listasInterfaces_00000267883</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.itson</groupId>
+            <artifactId>listasEnlazadas_00000267883</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
+                <configuration>
+                    <argLine>-Xmx512m -XX:MaxMetaspaceSize=256m</argLine>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
